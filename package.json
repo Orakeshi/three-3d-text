@@ -1,9 +1,16 @@
 {
-  "repository": "#",
-  "license": "UNLICENSED",
+  "name": "three-3d-text",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Orakeshi/three-3d-text.git",
+  "author": "Tommy Webb <tommygeorgewebb@googlemail.com>",
+  "license": "MIT",
+  "homepage": "https://orakeshi.github.io/three-3d-text/",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@babel/core": "^7.13.1",
@@ -25,5 +32,8 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
