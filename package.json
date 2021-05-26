@@ -1,0 +1,23 @@
+{
+  "name": "three-3d-text",
+  "version": "1.0.0",
+  "description": "## Setup Download [Node.js](https://nodejs.org/en/download/). Run this followed commands:",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy" : "gh-pages -d dist" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orakeshi/three-3d-text.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orakeshi/three-3d-text/issues"
+  },
+  "homepage": "https://github.com/Orakeshi/three-3d-text#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
