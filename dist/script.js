@@ -36,7 +36,7 @@ fontLoader.load(
     (font) =>
     {
         const textGeometry = new THREE.TextGeometry(
-            "Josh Beszant",
+            "Hello Everyone",
             {
                 font: font,
                 size: 0.5,
